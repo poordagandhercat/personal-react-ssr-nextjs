@@ -4,6 +4,8 @@ nextjs结合tailwindcss的react服务器端渲染初始基础模版-看到请忽
 
 nextjs -> 服务端渲染
 
+这玩意儿根本不需要手动去搭建 express 服务，GitHub上有些人还傻乎乎得去搭服务，居然还有十几个star...
+
 Computer environment:
   node vision -> v14.15.0
 
