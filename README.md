@@ -4,10 +4,7 @@ nextjs结合tailwindcss的react服务器端渲染初始基础模版-看到请忽
 
 nextjs -> 服务端渲染
 
-github里nextjs有大量的事例 -> https://github.com/vercel/next.js/tree/canary/examples
-
-Computer environment:
-  node vision -> v14.15.0
+github里nextjs有大量的示例 -> https://github.com/vercel/next.js/tree/canary/examples
 
 CSS库: https://tailwindcss.com/docs/responsive-design
 
@@ -20,6 +17,17 @@ npm run dev
 # or
 yarn dev
 ```
+
+
+项目无法启动时：
+  1.切换 node vision -> v14.15.0
+
+  2.rm -rf node_modules
+
+  3.npm cache clean
+
+  4.npm install
+
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
